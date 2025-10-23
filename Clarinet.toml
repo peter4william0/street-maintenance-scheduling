@@ -4,9 +4,12 @@ description = ""
 authors = []
 telemetry = true
 cache_dir = "./.cache"
+requirements = []
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.maintenance-scheduler]
+path = "contracts/maintenance-scheduler.clar"
+clarity_version = 3
+epoch = 3.1
 
 [repl.analysis]
 passes = ["check_checker"]
